@@ -1,1 +1,1 @@
-worker: npm i -g typescript && npm i github:adiwajshing/keyed-db && node .
+worker : npm i ffmpeg && npm i -g pm2 && pm2 start zeeone.js && pm2 save && pm2 logs
